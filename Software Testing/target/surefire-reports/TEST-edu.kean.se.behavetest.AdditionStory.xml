@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.kean.se.behavetest.AdditionStory" time="0.616" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/wai-takwong/eclipse-workspace/Software Testing/target/test-classes:/Users/wai-takwong/eclipse-workspace/Software Testing/target/classes:/Users/wai-takwong/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/wai-takwong/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/wai-takwong/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/wai-takwong/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/wai-takwong/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar:/Users/wai-takwong/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/wai-takwong/.m2/repository/org/jbehave/jbehave-core/4.0.2/jbehave-core-4.0.2.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar:/Users/wai-takwong/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/wai-takwong/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/wai-takwong/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/wai-takwong/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/wai-takwong/.m2/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar:/Users/wai-takwong/.m2/repository/com/thoughtworks/paranamer/paranamer/2.4/paranamer-2.4.jar:/Users/wai-takwong/.m2/repository/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar:/Users/wai-takwong/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/wai-takwong/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:"/>
+    <property name="https.proxyPort" value="53063"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/wai-takwong/eclipse-workspace/Software Testing/target/surefire/surefirebooter1347224198248527049.jar /Users/wai-takwong/eclipse-workspace/Software Testing/target/surefire 2019-10-07T17-19-28_057-jvmRun1 surefire2914679975369215292tmp surefire_04776981651869326577tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/wai-takwong/eclipse-workspace/Software Testing/target/test-classes:/Users/wai-takwong/eclipse-workspace/Software Testing/target/classes:/Users/wai-takwong/.m2/repository/io/rest-assured/rest-assured/3.0.0/rest-assured-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy/2.4.6/groovy-2.4.6.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.6/groovy-xml-2.4.6.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/wai-takwong/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/wai-takwong/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/wai-takwong/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/wai-takwong/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/json-path/3.0.0/json-path-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/codehaus/groovy/groovy-json/2.4.6/groovy-json-2.4.6.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/rest-assured-common/3.0.0/rest-assured-common-3.0.0.jar:/Users/wai-takwong/.m2/repository/io/rest-assured/xml-path/3.0.0/xml-path-3.0.0.jar:/Users/wai-takwong/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/wai-takwong/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar:/Users/wai-takwong/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/wai-takwong/.m2/repository/org/jbehave/jbehave-core/4.0.2/jbehave-core-4.0.2.jar:/Users/wai-takwong/.m2/repository/org/hamcrest/hamcrest-integration/1.3/hamcrest-integration-1.3.jar:/Users/wai-takwong/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/wai-takwong/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/wai-takwong/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/wai-takwong/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar:/Users/wai-takwong/.m2/repository/org/freemarker/freemarker/2.3.20/freemarker-2.3.20.jar:/Users/wai-takwong/.m2/repository/com/thoughtworks/paranamer/paranamer/2.4/paranamer-2.4.jar:/Users/wai-takwong/.m2/repository/com/thoughtworks/xstream/xstream/1.4.7/xstream-1.4.7.jar:/Users/wai-takwong/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/wai-takwong/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/wai-takwong"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/wai-takwong/eclipse-workspace/Software Testing"/>
+    <property name="https.proxyHost" value="127.0.0.1"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/wai-takwong/eclipse-workspace/Software Testing/target/surefire/surefirebooter1347224198248527049.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_212-b10"/>
+    <property name="user.name" value="wai-takwong"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/wai-takwong/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/m_/ssssyhzd7hz30_405n_17hxr0000gn/T/"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="/Users/wai-takwong/eclipse-workspace/Software Testing"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/wai-takwong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.212-b10"/>
+    <property name="java.ext.dirs" value="/Users/wai-takwong/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_212.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="http.proxyPort" value="53063"/>
+  </properties>
+  <testcase name="run" classname="edu.kean.se.behavetest.AdditionStory" time="0.562"/>
+</testsuite>
